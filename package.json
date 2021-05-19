@@ -1,0 +1,33 @@
+{
+  "name": "helpdesk-task-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart":"npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VG90sp/HelpDesk-task-back.git"
+  },
+  "author": "VG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VG90sp/HelpDesk-task-back/issues"
+  },
+  "homepage": "https://github.com/VG90sp/HelpDesk-task-back#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
